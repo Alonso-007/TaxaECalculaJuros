@@ -22,6 +22,7 @@ A execução do projeto pode ser feita de duas formas.
  - Usando o docker, para isso é necessário e o docker e docke-compose. Nesse caso depois da  clonagem ou download do repositório, acessar a pasta TaxaECalculaJuros\src e executar os seguintes comandos:
  
 	docker build -t calculajurosapi:1.0 ./CalculaJuros.Api > cria a imagem
+	<br />
 	docker build -t taxasapi:1.0 ./Taxas.Api > cria a imagem
 
 Depois acessar a pasta TaxaECalculaJuros e realizar os seguintes comandos:
