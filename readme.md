@@ -17,8 +17,8 @@ Na pasta scr e estão contidos os arquivos referentes a lógica do cálculo e na
 
 ## :building_construction: Execução do projeto
 
-A execução do projeto pode ser feita de duas formas.
- - Feita direta pela ide visual studio 2022. Para isso realizar a clonagem ou download do repositório fazer build e execução dos projetos web api.
+A execução do projeto pode ser feita de duas formas:
+ - Direto pela IDE Visual Studio 2022. Para isso realizar a clonagem ou download do repositório fazer build e execução dos projetos web api.
  - Usando o docker, para isso é necessário e o docker e docke-compose. Nesse caso depois da  clonagem ou download do repositório, acessar a pasta TaxaECalculaJuros\src e executar os seguintes comandos:
  
 	docker build -t calculajurosapi:1.0 ./CalculaJuros.Api > cria a imagem
@@ -30,3 +30,7 @@ Depois acessar a pasta TaxaECalculaJuros e realizar os seguintes comandos:
 	docker-compose up -d > sobe a aplicação
 	<br />
 	docker-compose down > para a aplicação
+	<br />
+	docker-compose up -d > exibe as informações dos containers em execução
+	<br />
+	Para acessar a aplicação colocar as seguintes urls no naveagador http://localhost:8080/swagger/index.html e http://localhost:8081/swagger/index.html.
