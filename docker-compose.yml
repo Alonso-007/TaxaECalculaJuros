@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  calculajuros:
+    image: calculajurosapi:1.0
+    container_name: calculajurosapi
+    networks:
+     - compose-nat
+    ports:
+      - 8080:80
+
+  taxas:
+    image: taxasapi:1.0
+    container_name: taxasapi
+    networks:
+     - compose-nat
+    ports:
+      - 8081:80
+
+networks:
+  compose-nat:
+    driver: nat
