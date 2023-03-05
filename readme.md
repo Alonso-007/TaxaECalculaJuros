@@ -26,5 +26,7 @@ A execução do projeto pode ser feita de duas formas.
 	docker build -t taxasapi:1.0 ./Taxas.Api > cria a imagem
 
 Depois acessar a pasta TaxaECalculaJuros e realizar os seguintes comandos:
+	<br />
 	docker-compose up -d > sobe a aplicação
+	<br />
 	docker-compose down > para a aplicação
